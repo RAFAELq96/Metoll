@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header1{
+    background-color: rgb(146, 24, 24);
+    width:100%;
+    display: flex;
+    border-top-style: solid;
+    border-top-color: rgb(66, 10, 10);
+    border-top-width:30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(184, 35, 35);
+    border-bottom-width:10px;
+}
+
+#logo{
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(66, 10, 10);
+    border-right: 7px;
+    margin: 20px;
+}
+
+nav{
+    width:40%;
+    margin: auto;
+    
+}
+
+ul{
+    display:flex;
+    padding: 25px;
+}
+ul li{
+    margin: auto;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3ch;
+    
+}
+@keyframes animacaoB{
+    from {
+        color: white;
+    }
+
+    to {
+        color:rgb(250, 100, 100);
+    }
+}
+
+ul li a:hover{
+
+    animation-name: animacaoB;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+
+
+}
+
+.article1{
+    width:60%;
+    margin:auto;
+    display:flex;
+
+}
+
+#aside1{
+    background-color: rgb(199, 199, 199);
+    width:20%;
+    display:flex;
+    float:left;
+    margin:auto;
+    
+ 
+}
+
+#aside2{
+    background-color: rgb(199, 199, 199);
+    width:20%;
+    display:flex;
+    margin:auto;
+    
+   
+}
+
+footer{
+    background-color: rgb(168, 33, 33);
+    margin-top: 50px;
+    display:flex;
+    max-width: 100%;
+    clear: both;
+}
+#logo2{
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(66, 10, 10);
+    border-right: 7px;
+    margin: 20px;
+}
+
+
+body {
+
+    margin: 40px;
+    margin: 0 auto;
+    background-color:rgb(199, 199, 199);
+}
+
+h2{
+    display:flex;
+    float:left;
+    width:60%;
+    margin: auto;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5ch;
+    color:rgb(116, 18, 18);
+
+}
+
+.titulo{
+    margin: auto;
+    width: 60%;
+    margin-top: 5px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5ch;
+    color:rgb(116, 18, 18);
+}
+
+.aside3{
+    margin: auto;
+
+}
+#section2{
+    margin: auto;
+    display:flex;
+}
+
+.articlen{
+    width: 33%;
+    padding: 50px;
+}
+
+footer p{
+    color:white;
+}
+
+@media (max-width: 1000px) {
+    ul{
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+
+    ul li{
+        margin: 20px;
+    }
+
+    #aside1{
+        width: 10%;
+
+    }
+    #aside2{
+        width: 10%;
+
+    }
+    #section2{
+        width: 80%;
+
+    }
+    .articlen{
+        width: 50%;
+        padding: 0px;
+    }
+    #logo2{
+        width: 102.72px;
+        height: 88.64px;
+    }
+    
+}
+
+.fim{
+    margin-left: 10px;
+    
+}
+
+
+
+
+
